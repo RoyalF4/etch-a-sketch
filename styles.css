@@ -1,6 +1,4 @@
 .cell {
-  width: 40px;
-  height: 40px;
   border: solid black 1px;
   box-sizing: border-box;
 }
@@ -9,5 +7,6 @@
   display: flex;
   width: 640px;
   flex-wrap: wrap;
-  border: 1px solid black;
+  margin-top: 20px;
+
 }
