@@ -4,6 +4,9 @@ const NUM_OF_CELLS = 256;
 function createCell() {
   const cell = document.createElement('div');
   cell.classList.add('cell');
+  cell.addEventListener('mouseenter', () => {
+    cell.style.backgroundColor = 'black'
+  })
   container.appendChild(cell);
 }
 
